@@ -28,6 +28,7 @@ class _GameStatefulWidgetState extends State<GameStatefulWidget> with SingleTick
 
   bool _block = false;
 
+
   double _circleSize = 40.0;
   double _crossSize = 30.0;
 

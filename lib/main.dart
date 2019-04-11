@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tic_tac_toe/Game/Game.dart';
+import 'package:tic_tac_toe/Online/OnlineList.dart';
 
 void main() => runApp(MyApp());
 
@@ -47,8 +48,8 @@ class MainMenuStatelessWidget extends StatelessWidget{
             RaisedButton(
                 child: Text('Online'),
                 onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => GameStatefulWidget(
-                    online: true,
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => OnlineList(
+
                   )));
                 }
             ),

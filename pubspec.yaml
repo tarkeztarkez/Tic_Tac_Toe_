@@ -27,7 +27,6 @@ dev_dependencies:
     sdk: flutter
 
 
-
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
@@ -41,6 +40,7 @@ flutter:
 
   assets:
   - animations/
+  - assets/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
